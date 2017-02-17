@@ -1,0 +1,53 @@
+body {
+  background: url("http://res.cloudinary.com/eglital/image/upload/o_39/v1471495364/dawn-190055_w2hrgf.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+/*Title*/
+h1 {
+  font-family: "Original Surfer", cursive;
+  font-size: 50px;
+  font-weight: bold;
+  color: #002266;
+  margin: 60px auto;
+  text-shadow: 2px 2px  #003cb3;
+}
+
+/*Main section*/
+.well {
+  width: 50%;
+  height: 200px;
+  margin: 50px auto 0 auto;
+  background-color: rgba(245, 245, 245, 0.4);
+}
+blockquote {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  padding-top: 25px;
+}
+
+/*Buttons*/
+
+.buttons {
+  height: 44px;
+  background-color:  #002b80;
+  border: none;
+}
+.buttons h5 {
+  line-height: 8px;
+}
+#button-quote {
+  margin: 20px 60%;
+}
+
+#button-tweet {
+  margin: 20px 28%;
+}
+
+/*Fix the footer always on the bottom*/
+.content {
+    min-height: calc(100vh - 230px);
+}
